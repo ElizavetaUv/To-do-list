@@ -73,7 +73,7 @@ window.addEventListener("load", () => {
 
     // Marking task as completed
 
-    taskEl.addEventListener("click", (e) => {
+    taskContentEl.addEventListener("click", (e) => {
       if (!taskEl.classList.contains("completed")) {
         taskEl.classList.add("completed");
       } else {
